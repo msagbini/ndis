@@ -4,6 +4,14 @@ Every consequential decision, newest first. Format: date, decision, why, and how
 
 ---
 
+## 2026-08-27 — Founder communication in Spanish
+
+**Decision:** All chat communication and explanations addressed to the founder are in Spanish (their primary language). Customer-facing material (outreach messages, interview script) stays in Australian English, because the interviewees are Australian providers. Repo docs remain in English for now; Spanish versions of the founder-instruction docs can be produced on request.
+
+**Why:** The founder asked for it (2026-08-27). Clear communication with the founder outranks consistency of language.
+
+**Reversibility:** Trivial.
+
 ## 2026-08-27 — Backend language: TypeScript on Node.js
 
 **Decision:** TypeScript everywhere (backend, frontend, tooling). Never mixed with Python.
