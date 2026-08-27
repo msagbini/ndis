@@ -1,0 +1,2139 @@
+{
+	"validationDateDefault": "2026-08-27",
+	"cases": [
+		{
+			"name": "pass: whole hour at limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0001",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6300,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: below limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0002",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 5999,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: 1.5 hours",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0003",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1.5,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: 0.25 hours",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0004",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 0.25,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: 4-decimal quantity rounds total",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0005",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1.3333,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: remote at remote limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0006",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 8820,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "remote"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: very remote at limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0007",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 9450,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "veryRemote"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: multi-day range",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0008",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-03",
+					"supportsDeliveredTo": "2026-08-07",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: therapy exactly consumes remaining budget",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0009",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_THERAPY_HOURLY",
+					"quantity": 2,
+					"unitPriceCents": 19000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: service on validation date itself",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0010",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-27",
+					"supportsDeliveredTo": "2026-08-27",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "fail: 1c above national limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0011",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6301,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PRICE_ABOVE_LIMIT"]
+				}
+			]
+		},
+		{
+			"name": "fail: above remote limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0012",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 8821,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "remote"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PRICE_ABOVE_LIMIT"]
+				}
+			]
+		},
+		{
+			"name": "fail: above very remote limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0013",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 9451,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "veryRemote"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PRICE_ABOVE_LIMIT"]
+				}
+			]
+		},
+		{
+			"name": "fail: national price at remote rate",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0014",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 8820,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PRICE_ABOVE_LIMIT"]
+				}
+			]
+		},
+		{
+			"name": "fail: therapy above limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0015",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_THERAPY_HOURLY",
+					"quantity": 1,
+					"unitPriceCents": 19001,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PRICE_ABOVE_LIMIT"]
+				}
+			]
+		},
+		{
+			"name": "fail: 6100 under old version limit 6000",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0016",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-06-15",
+					"supportsDeliveredTo": "2026-06-15",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6100,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PRICE_ABOVE_LIMIT"]
+				}
+			]
+		},
+		{
+			"name": "pass: 6100 under new version limit 6300",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0017",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-07-15",
+					"supportsDeliveredTo": "2026-07-15",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6100,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "fail: catalogue gap day",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0018",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-07-01",
+					"supportsDeliveredTo": "2026-07-01",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["NO_CATALOGUE_FOR_DATE"]
+				}
+			]
+		},
+		{
+			"name": "fail: new item claimed before it existed",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0019",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-06-20",
+					"supportsDeliveredTo": "2026-06-20",
+					"supportNumber": "FX_NEW_ITEM",
+					"quantity": 1,
+					"unitPriceCents": 2000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["ITEM_NOT_IN_CATALOGUE"]
+				}
+			]
+		},
+		{
+			"name": "pass: new item in new version",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0020",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_NEW_ITEM",
+					"quantity": 1,
+					"unitPriceCents": 2000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "fail: unknown support item",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0021",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_DOES_NOT_EXIST",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["ITEM_NOT_IN_CATALOGUE"]
+				}
+			]
+		},
+		{
+			"name": "fail: bad from date \"2026-8-10\"",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0022",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-8-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "fail: bad from date \"2026-02-30\"",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0023",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-02-30",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "fail: bad from date \"2026-13-01\"",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0024",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-13-01",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "fail: bad from date \"10/08/2026\"",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0025",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "10/08/2026",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "fail: bad from date \"\"",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0026",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "fail: bad from date \"2026-00-10\"",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0027",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-00-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "fail: bad from date \"2026-04-31\"",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0028",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-04-31",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "fail: bad from date \"2026-02-29\"",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0029",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-02-29",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "leap day is a valid date (fails on plan and catalogue, not format)",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0030",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2024-02-29",
+					"supportsDeliveredTo": "2024-02-29",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["OUTSIDE_PLAN_DATES", "NO_CATALOGUE_FOR_DATE"]
+				}
+			]
+		},
+		{
+			"name": "fail: bad to date",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0031",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "not-a-date",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "fail: inverted range",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0032",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-09",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["DATE_RANGE_INVERTED"]
+				}
+			]
+		},
+		{
+			"name": "fail: ends in future",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0033",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-20",
+					"supportsDeliveredTo": "2026-09-01",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["SERVICE_DATE_IN_FUTURE"]
+				}
+			]
+		},
+		{
+			"name": "fail: before plan start",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0034",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2025-12-20",
+					"supportsDeliveredTo": "2025-12-21",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["OUTSIDE_PLAN_DATES"]
+				}
+			]
+		},
+		{
+			"name": "fail: after plan end is also future",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0035",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2027-01-10",
+					"supportsDeliveredTo": "2027-01-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["SERVICE_DATE_IN_FUTURE", "OUTSIDE_PLAN_DATES"]
+				}
+			]
+		},
+		{
+			"name": "fail: spans plan end",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0036",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-12-30",
+					"supportsDeliveredTo": "2027-01-02",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["SERVICE_DATE_IN_FUTURE", "OUTSIDE_PLAN_DATES"]
+				}
+			]
+		},
+		{
+			"name": "fail: starts before plan, ends inside",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0037",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2025-12-31",
+					"supportsDeliveredTo": "2026-01-02",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["OUTSIDE_PLAN_DATES"]
+				}
+			]
+		},
+		{
+			"name": "fail: claim for a different participant",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0038",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX9999999",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PLAN_PARTICIPANT_MISMATCH"]
+				}
+			]
+		},
+		{
+			"name": "fail: zero quantity",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0039",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 0,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_QUANTITY"]
+				}
+			]
+		},
+		{
+			"name": "fail: negative quantity",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0040",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": -1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_QUANTITY"]
+				}
+			]
+		},
+		{
+			"name": "fail: 5-decimal quantity",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0041",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1.00001,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_QUANTITY"]
+				}
+			]
+		},
+		{
+			"name": "fail: zero unit price",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0042",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 0,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_UNIT_PRICE"]
+				}
+			]
+		},
+		{
+			"name": "fail: negative unit price",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0043",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": -100,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_UNIT_PRICE"]
+				}
+			]
+		},
+		{
+			"name": "fail: fractional cents",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0044",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 100.5,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_UNIT_PRICE"]
+				}
+			]
+		},
+		{
+			"name": "fail: both amounts invalid",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0045",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 0,
+					"unitPriceCents": 0,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_QUANTITY", "INVALID_UNIT_PRICE"]
+				}
+			]
+		},
+		{
+			"name": "pass: CANC with valid reason",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0046",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "CANC",
+					"cancellationReason": "FXCR_HEALTH",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: TRAN claim",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0047",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "TRAN",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: NF2F claim",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0048",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "NF2F",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: REPW claim",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0049",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "REPW",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: THLT claim",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0050",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "THLT",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: IRSS claim",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0051",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "IRSS",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: second valid cancellation reason",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0052",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "CANC",
+					"cancellationReason": "FXCR_OTHER",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: one cent below limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0053",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6299,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "pass: core budget consumed exactly to zero (16.6666h x $60 rounds to $1000.00)",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0054",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 16.6666,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "fail: core budget exceeded by one rounded cent",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0055",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 16.6668,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["BUDGET_EXCEEDED"]
+				}
+			]
+		},
+		{
+			"name": "fail: CANC without reason",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0056",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "CANC",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["CANCELLATION_REASON_MISSING"]
+				}
+			]
+		},
+		{
+			"name": "fail: CANC with unknown reason",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0057",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "CANC",
+					"cancellationReason": "FXCR_NOPE",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_CANCELLATION_REASON"]
+				}
+			]
+		},
+		{
+			"name": "fail: unknown claim type",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0058",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "XXXX",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_CLAIM_TYPE"]
+				}
+			]
+		},
+		{
+			"name": "fail: lowercase claim type",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0059",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "canc",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_CLAIM_TYPE"]
+				}
+			]
+		},
+		{
+			"name": "fail: reason without CANC",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0060",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "FXCR_HEALTH",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["CANCELLATION_REASON_UNEXPECTED"]
+				}
+			]
+		},
+		{
+			"name": "fail: lowercase CANC with reason",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0061",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "canc",
+					"cancellationReason": "FXCR_HEALTH",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_CLAIM_TYPE", "CANCELLATION_REASON_UNEXPECTED"]
+				}
+			]
+		},
+		{
+			"name": "review: quote-required item",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0062",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_QUOTE_ITEM",
+					"quantity": 1,
+					"unitPriceCents": 90000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "NEEDS_REVIEW",
+					"codes": ["QUOTE_REQUIRED"]
+				}
+			]
+		},
+		{
+			"name": "fail: quote item above its limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0063",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_QUOTE_ITEM",
+					"quantity": 1,
+					"unitPriceCents": 100001,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PRICE_ABOVE_LIMIT", "QUOTE_REQUIRED"]
+				}
+			]
+		},
+		{
+			"name": "fail: item whose category has no budget",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0064",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_ORPHAN_ITEM",
+					"quantity": 1,
+					"unitPriceCents": 5000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["BUDGET_CATEGORY_MISSING"]
+				}
+			]
+		},
+		{
+			"name": "fail: single line over remaining therapy budget",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0065",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_THERAPY_HOURLY",
+					"quantity": 2.5,
+					"unitPriceCents": 19000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["BUDGET_EXCEEDED"]
+				}
+			]
+		},
+		{
+			"name": "fail: two cents over remaining budget via quantity",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0066",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_THERAPY_HOURLY",
+					"quantity": 2.0001,
+					"unitPriceCents": 19000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["BUDGET_EXCEEDED"]
+				}
+			]
+		},
+		{
+			"name": "batch: two lines fit core budget",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0067",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-03",
+					"supportsDeliveredTo": "2026-08-03",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 5,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				},
+				{
+					"claimReference": "FXREF0068",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-04",
+					"supportsDeliveredTo": "2026-08-04",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 5,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				},
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "batch: third line exhausts core budget",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0069",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-03",
+					"supportsDeliveredTo": "2026-08-03",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 6,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				},
+				{
+					"claimReference": "FXREF0070",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-04",
+					"supportsDeliveredTo": "2026-08-04",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 6,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				},
+				{
+					"claimReference": "FXREF0071",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-05",
+					"supportsDeliveredTo": "2026-08-05",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 6,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				},
+				{
+					"verdict": "PASS",
+					"codes": []
+				},
+				{
+					"verdict": "FAIL",
+					"codes": ["BUDGET_EXCEEDED"]
+				}
+			]
+		},
+		{
+			"name": "batch: failed line does not consume budget",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0072",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-06",
+					"supportsDeliveredTo": "2026-08-06",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 10,
+					"unitPriceCents": 6301,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				},
+				{
+					"claimReference": "FXREF0073",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-07",
+					"supportsDeliveredTo": "2026-08-07",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 10,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PRICE_ABOVE_LIMIT"]
+				},
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "batch: categories accumulate independently",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0074",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 10,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				},
+				{
+					"claimReference": "FXREF0075",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_THERAPY_HOURLY",
+					"quantity": 2,
+					"unitPriceCents": 19000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				},
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "batch: exact duplicate line fails second occurrence",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0076",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-11",
+					"supportsDeliveredTo": "2026-08-11",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				},
+				{
+					"claimReference": "FXREF0077",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-11",
+					"supportsDeliveredTo": "2026-08-11",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				},
+				{
+					"verdict": "FAIL",
+					"codes": ["DUPLICATE_IN_BATCH"]
+				}
+			]
+		},
+		{
+			"name": "batch: new claim reference does not launder a duplicate",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF_A",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-12",
+					"supportsDeliveredTo": "2026-08-12",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				},
+				{
+					"claimReference": "FXREF_B",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-12",
+					"supportsDeliveredTo": "2026-08-12",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				},
+				{
+					"verdict": "FAIL",
+					"codes": ["DUPLICATE_IN_BATCH"]
+				}
+			]
+		},
+		{
+			"name": "batch: different dates are not duplicates",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0080",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-13",
+					"supportsDeliveredTo": "2026-08-13",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				},
+				{
+					"claimReference": "FXREF0081",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-14",
+					"supportsDeliveredTo": "2026-08-14",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "PASS",
+					"codes": []
+				},
+				{
+					"verdict": "PASS",
+					"codes": []
+				}
+			]
+		},
+		{
+			"name": "history: previously submitted claim is a duplicate",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0082",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-15",
+					"supportsDeliveredTo": "2026-08-15",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["DUPLICATE_OF_HISTORY"]
+				}
+			],
+			"priorClaimKeys": [
+				"FX0000001|FX_CORE_HOURLY_01|2026-08-15|2026-08-15|FXREG001"
+			]
+		},
+		{
+			"name": "history and batch duplicate together",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0083",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-16",
+					"supportsDeliveredTo": "2026-08-16",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				},
+				{
+					"claimReference": "FXREF0084",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-16",
+					"supportsDeliveredTo": "2026-08-16",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["DUPLICATE_OF_HISTORY"]
+				},
+				{
+					"verdict": "FAIL",
+					"codes": ["DUPLICATE_OF_HISTORY", "DUPLICATE_IN_BATCH"]
+				}
+			],
+			"priorClaimKeys": [
+				"FX0000001|FX_CORE_HOURLY_01|2026-08-16|2026-08-16|FXREG001"
+			]
+		},
+		{
+			"name": "combo: future and above limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0085",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-09-01",
+					"supportsDeliveredTo": "2026-09-02",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6301,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["SERVICE_DATE_IN_FUTURE", "PRICE_ABOVE_LIMIT"]
+				}
+			]
+		},
+		{
+			"name": "combo: wrong participant and bad date",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0086",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX8888888",
+					"supportsDeliveredFrom": "2026-99-01",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6000,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["PLAN_PARTICIPANT_MISMATCH", "INVALID_DATE_FORMAT"]
+				}
+			]
+		},
+		{
+			"name": "combo: bad type and above limit",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0087",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 1,
+					"unitPriceCents": 6400,
+					"claimType": "ZZZZ",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_CLAIM_TYPE", "PRICE_ABOVE_LIMIT"]
+				}
+			]
+		},
+		{
+			"name": "combo: invalid amount skips total but price still checked",
+			"validationDate": "2026-08-27",
+			"lines": [
+				{
+					"claimReference": "FXREF0088",
+					"registrationNumber": "FXREG001",
+					"ndisNumber": "FX0000001",
+					"supportsDeliveredFrom": "2026-08-10",
+					"supportsDeliveredTo": "2026-08-10",
+					"supportNumber": "FX_CORE_HOURLY_01",
+					"quantity": 0,
+					"unitPriceCents": 6301,
+					"claimType": "",
+					"cancellationReason": "",
+					"locationClass": "national"
+				}
+			],
+			"expected": [
+				{
+					"verdict": "FAIL",
+					"codes": ["INVALID_QUANTITY", "PRICE_ABOVE_LIMIT"]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"planId": "FX_PLAN_0001",
+	"ndisNumber": "FX0000001",
+	"startDate": "2026-01-01",
+	"endDate": "2026-12-31",
+	"budgets": [
+		{
+			"supportCategoryNumber": "FX_CORE",
+			"allocatedCents": 100000,
+			"spentCents": 0
+		},
+		{
+			"supportCategoryNumber": "FX_CB",
+			"allocatedCents": 190000,
+			"spentCents": 152000
+		},
+		{
+			"supportCategoryNumber": "FX_CAPITAL",
+			"allocatedCents": 500000,
+			"spentCents": 0
+		}
+	]
+}

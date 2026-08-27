@@ -1,0 +1,126 @@
+[
+	{
+		"versionId": "FIXTURE-2025-26",
+		"source": "FIXTURE data — invented for tests, no real NDIS prices. Note: deliberate one-day gap on 2026-07-01 to exercise NO_CATALOGUE_FOR_DATE.",
+		"effectiveFrom": "2025-07-01",
+		"effectiveTo": "2026-06-30",
+		"items": [
+			{
+				"supportItemNumber": "FX_CORE_HOURLY_01",
+				"supportItemName": "FIXTURE core daily activities, weekday hour",
+				"supportCategoryNumber": "FX_CORE",
+				"unit": "H",
+				"quoteRequired": false,
+				"priceLimitCents": {
+					"national": 6000,
+					"remote": 8400,
+					"veryRemote": 9000
+				}
+			},
+			{
+				"supportItemNumber": "FX_THERAPY_HOURLY",
+				"supportItemName": "FIXTURE therapy hour",
+				"supportCategoryNumber": "FX_CB",
+				"unit": "H",
+				"quoteRequired": false,
+				"priceLimitCents": {
+					"national": 19000,
+					"remote": 26600,
+					"veryRemote": 28500
+				}
+			},
+			{
+				"supportItemNumber": "FX_QUOTE_ITEM",
+				"supportItemName": "FIXTURE quote-required equipment",
+				"supportCategoryNumber": "FX_CAPITAL",
+				"unit": "EA",
+				"quoteRequired": true,
+				"priceLimitCents": {
+					"national": 100000,
+					"remote": 100000,
+					"veryRemote": 100000
+				}
+			},
+			{
+				"supportItemNumber": "FX_ORPHAN_ITEM",
+				"supportItemName": "FIXTURE item whose category has no plan budget",
+				"supportCategoryNumber": "FX_NOBUDGET",
+				"unit": "EA",
+				"quoteRequired": false,
+				"priceLimitCents": {
+					"national": 5000,
+					"remote": 7000,
+					"veryRemote": 7500
+				}
+			}
+		]
+	},
+	{
+		"versionId": "FIXTURE-2026-27",
+		"source": "FIXTURE data — invented for tests, no real NDIS prices.",
+		"effectiveFrom": "2026-07-02",
+		"effectiveTo": "2027-06-30",
+		"items": [
+			{
+				"supportItemNumber": "FX_CORE_HOURLY_01",
+				"supportItemName": "FIXTURE core daily activities, weekday hour",
+				"supportCategoryNumber": "FX_CORE",
+				"unit": "H",
+				"quoteRequired": false,
+				"priceLimitCents": {
+					"national": 6300,
+					"remote": 8820,
+					"veryRemote": 9450
+				}
+			},
+			{
+				"supportItemNumber": "FX_THERAPY_HOURLY",
+				"supportItemName": "FIXTURE therapy hour",
+				"supportCategoryNumber": "FX_CB",
+				"unit": "H",
+				"quoteRequired": false,
+				"priceLimitCents": {
+					"national": 19000,
+					"remote": 26600,
+					"veryRemote": 28500
+				}
+			},
+			{
+				"supportItemNumber": "FX_QUOTE_ITEM",
+				"supportItemName": "FIXTURE quote-required equipment",
+				"supportCategoryNumber": "FX_CAPITAL",
+				"unit": "EA",
+				"quoteRequired": true,
+				"priceLimitCents": {
+					"national": 100000,
+					"remote": 100000,
+					"veryRemote": 100000
+				}
+			},
+			{
+				"supportItemNumber": "FX_ORPHAN_ITEM",
+				"supportItemName": "FIXTURE item whose category has no plan budget",
+				"supportCategoryNumber": "FX_NOBUDGET",
+				"unit": "EA",
+				"quoteRequired": false,
+				"priceLimitCents": {
+					"national": 5000,
+					"remote": 7000,
+					"veryRemote": 7500
+				}
+			},
+			{
+				"supportItemNumber": "FX_NEW_ITEM",
+				"supportItemName": "FIXTURE item introduced in the 2026-27 version",
+				"supportCategoryNumber": "FX_CORE",
+				"unit": "EA",
+				"quoteRequired": false,
+				"priceLimitCents": {
+					"national": 2000,
+					"remote": 2800,
+					"veryRemote": 3000
+				}
+			}
+		]
+	}
+]

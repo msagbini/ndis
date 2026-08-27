@@ -2,14 +2,16 @@
 	"name": "@claimguard/rules",
 	"version": "0.0.0",
 	"private": true,
-	"description": "Deterministic claim-validation rules engine. Pure logic: no network, no database, no AI. Stage 0 contains only a harness smoke test — the engine itself is Stage 1.",
+	"description": "Deterministic claim-validation rules engine. Pure logic: no network, no database, no AI. Built in Stage 1; validates claim lines against plan, budget, price limits, dates, duplicates and bulk-CSV shape, all on FIXTURE_ data until official files arrive.",
 	"type": "module",
 	"main": "src/index.ts",
 	"scripts": {
 		"typecheck": "tsc --noEmit",
-		"test": "vitest run"
+		"test": "vitest run --coverage"
 	},
 	"devDependencies": {
+		"@types/node": "^26.4.0",
+		"@vitest/coverage-v8": "^4.1.11",
 		"typescript": "^7.0.2",
 		"vitest": "^4.1.11"
 	}

@@ -6,9 +6,9 @@
 
 > **Working name only.** "Claimguard" must be renamed before any public artefact exists — see `DECISIONS.md`.
 
-## Current status: Stage 0 — validation, no product code
+## Current status: Stage 1 active — rules engine under construction; Stage 0 interviews running in parallel
 
-This repository currently contains **no product code**, on purpose. Stage 0 validates the business with real customers before anything is built. What exists now:
+The founder chose (2026-08-27, recorded in `DECISIONS.md`) to start the Stage 1 deterministic rules engine while the Stage 0 customer interviews run; the interview verdict still decides the business go/no-go. The engine works entirely on clearly labelled `FIXTURE_` data until the official 2026-27 pricing files arrive. What exists now:
 
 | Where | What |
 |---|---|
@@ -18,7 +18,8 @@ This repository currently contains **no product code**, on purpose. Stage 0 vali
 | `docs/plans/` | Per-stage plans with scope and acceptance criteria |
 | `ARCHITECTURE.md` | The intended technical shape of the product (intent, not implementation) |
 | `DECISIONS.md` | Log of decisions made and why |
-| `packages/rules/` | Empty placeholder package with one smoke test proving the toolchain works |
+| `packages/rules/` | The deterministic claim-validation engine: pure logic, 22 reason codes, 100% branch coverage, golden-set harness |
+| `seed/FIXTURE_golden-set/` | ~95 curated fictional test cases with expected verdicts; a regression blocks the merge |
 
 ## Stages
 

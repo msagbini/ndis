@@ -1,0 +1,414 @@
+{
+	"rows": [
+		{
+			"name": "row ok with quantity",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": []
+		},
+		{
+			"name": "row ok with hours",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "",
+				"Hours": "1.5",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": []
+		},
+		{
+			"name": "row ok integer price",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "60",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": []
+		},
+		{
+			"name": "missing registration number",
+			"row": {
+				"RegistrationNumber": "",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["MISSING_REQUIRED_FIELD"]
+		},
+		{
+			"name": "missing unit price",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["MISSING_REQUIRED_FIELD"]
+		},
+		{
+			"name": "missing gst code",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "60.00",
+				"GSTCode": "",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["MISSING_REQUIRED_FIELD"]
+		},
+		{
+			"name": "slash date",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "10/08/2026",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["INVALID_DATE_FORMAT"]
+		},
+		{
+			"name": "impossible date",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-02-30",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["INVALID_DATE_FORMAT"]
+		},
+		{
+			"name": "money with 3 decimals",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "60.005",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["INVALID_MONEY_FORMAT"]
+		},
+		{
+			"name": "money with currency symbol",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "$60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["INVALID_MONEY_FORMAT"]
+		},
+		{
+			"name": "money with thousands separator",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "1,060.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["INVALID_MONEY_FORMAT"]
+		},
+		{
+			"name": "quantity and hours both set",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "2",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["QUANTITY_AND_HOURS_BOTH_SET"]
+		},
+		{
+			"name": "quantity and hours both empty",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "",
+				"Hours": "",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["QUANTITY_AND_HOURS_BOTH_EMPTY"]
+		},
+		{
+			"name": "zero quantity",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "0",
+				"Hours": "",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["INVALID_NUMBER_FORMAT"]
+		},
+		{
+			"name": "negative hours",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "",
+				"Hours": "-2",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["INVALID_NUMBER_FORMAT"]
+		},
+		{
+			"name": "non-numeric quantity",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "FX0000001",
+				"SupportsDeliveredFrom": "2026-08-10",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "two",
+				"Hours": "",
+				"UnitPrice": "60.00",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": ["INVALID_NUMBER_FORMAT"]
+		},
+		{
+			"name": "several problems at once",
+			"row": {
+				"RegistrationNumber": "FXREG001",
+				"NDISNumber": "",
+				"SupportsDeliveredFrom": "31-12-2026",
+				"SupportsDeliveredTo": "2026-08-10",
+				"SupportNumber": "FX_CORE_HOURLY_01",
+				"ClaimReference": "FXREF9001",
+				"Quantity": "2",
+				"Hours": "",
+				"UnitPrice": "abc",
+				"GSTCode": "FXGST",
+				"AuthorisedBy": "",
+				"ParticipantApproved": "",
+				"InKindFundingProgram": "",
+				"ClaimType": "",
+				"CancellationReason": "",
+				"ABN of Support Provider": ""
+			},
+			"codes": [
+				"MISSING_REQUIRED_FIELD",
+				"INVALID_DATE_FORMAT",
+				"INVALID_MONEY_FORMAT"
+			]
+		}
+	],
+	"filenames": [
+		{
+			"name": "ok short name",
+			"filename": "FXCLAIMS.CSV",
+			"codes": []
+		},
+		{
+			"name": "ok exactly 20 chars",
+			"filename": "BULKCLAIMS202608.CSV",
+			"codes": []
+		},
+		{
+			"name": "ok lowercase extension",
+			"filename": "claims.csv",
+			"codes": []
+		},
+		{
+			"name": "too long at 21 chars",
+			"filename": "BULKCLAIMS2026081.CSV",
+			"codes": ["FILENAME_TOO_LONG"]
+		},
+		{
+			"name": "wrong extension",
+			"filename": "claims.txt",
+			"codes": ["FILENAME_NOT_CSV"]
+		},
+		{
+			"name": "wrong extension and too long",
+			"filename": "averyverylongclaimfile.txt",
+			"codes": ["FILENAME_NOT_CSV", "FILENAME_TOO_LONG"]
+		}
+	]
+}

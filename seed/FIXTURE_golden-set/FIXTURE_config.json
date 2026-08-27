@@ -1,0 +1,4 @@
+{
+	"claimTypes": ["CANC", "TRAN", "NF2F", "REPW", "THLT", "IRSS"],
+	"cancellationReasons": ["FXCR_HEALTH", "FXCR_OTHER"]
+}

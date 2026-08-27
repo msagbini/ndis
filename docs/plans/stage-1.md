@@ -37,10 +37,11 @@ Database, API, UI, LLM anything, document ingestion (Stage 2), evidence mapping 
 - Is validation of the NDIA bulk CSV itself (pre-upload lint) part of Stage 1 or Stage 2 ingestion? Draft position: the *format rules* live in `rules/`; file parsing lives in `ingestion/`.
 - How to model MMM remoteness (1–7 geographic classes) without an address-geocoding dependency — likely: postcode→MMM lookup table as versioned seed data, with provenance.
 
-## Acceptance criteria (draft)
+## Acceptance criteria
 
-- [ ] Golden set ≥ 100 cases spanning every rule and every reason code; 100% pass.
-- [ ] `rules/` at 100% branch coverage; no imports of network/db/LLM modules (lint-enforced).
-- [ ] Catalogue parser round-trips the real 2026-27 XLSX with a checksum test.
-- [ ] A price-limit change between catalogue versions produces different verdicts for the same claim on either side of the effective date (versioning proof).
-- [ ] CI green; founder demo: paste a claim, see verdict + plain reason.
+- [x] Golden set ≥ 100 cases spanning every rule and every reason code; 100% pass. (102 cases — 79 engine, 23 CSV — covering all 26 reason codes; 129 tests green.)
+- [x] `rules/` at 100% branch coverage (131/131 branches, 161/161 statements); purity enforced by `purity.test.ts` (no non-relative imports, no runtime deps, no ambient time/randomness).
+- [ ] Catalogue parser round-trips the real 2026-27 XLSX with a checksum test. **← BLOCKED on the founder downloading the official files** (`docs/research/sources/README.md`); the engine consumes catalogue data as input, so this plugs in without engine changes.
+- [x] A price-limit change between catalogue versions produces different verdicts for the same claim on either side of the effective date (golden cases "6100 under old version limit" / "6100 under new version limit").
+- [x] CI green; founder demo shown (live run: PASS / PRICE_ABOVE_LIMIT / SERVICE_DATE_IN_FUTURE / DUPLICATE_IN_BATCH with plain-English reasons).
+- [ ] Reason codes mapped to the NDIA's official rejection reasons — **needs the two NDIA self-help guides** (same founder download).

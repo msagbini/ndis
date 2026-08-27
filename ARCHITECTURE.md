@@ -28,7 +28,8 @@ AI output that feeds any decision must be structured (machine-checkable format),
 ```
 packages/
   rules/       Pure claim-validation logic. No network, no database, no AI.
-               Importable and testable in complete isolation. Exists now as a placeholder.
+               Importable and testable in complete isolation. Built in Stage 1;
+               a purity test enforces the isolation.
   ingestion/   Document intake and extraction pipelines.
   ai/          The single internal abstraction over LLM access: model routing,
                fallback, per-tenant cost caps, prompt versioning, full audit logging.
