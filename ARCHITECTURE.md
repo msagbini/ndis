@@ -34,7 +34,8 @@ packages/
                fallback, per-tenant cost caps, prompt versioning, full audit logging.
   api/         The HTTP API.
   web/         React frontend, server-side rendered, typed end-to-end against the API.
-  jobs/        Durable queue workers: OCR, nightly rule re-evaluation, expiry sweeps,
+  jobs/        Durable queue workers: OCR (reading text out of scanned documents),
+               nightly rule re-evaluation, expiry sweeps,
                evidence-pack compilation. Idempotent (safe to run twice).
   db/          Schema, versioned reversible migrations, row-level security policies.
 skills/        Reusable agent procedures (see master prompt §6).

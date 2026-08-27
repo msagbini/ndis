@@ -48,11 +48,11 @@ Collected and presented once, at the stage gate — see the gate report.
 
 ## Acceptance criteria
 
-- [ ] All six research files exist, each with primary sources and retrieval dates.
-- [ ] Interview kit is complete: sourcing guide, three outreach messages, verbatim script with ★-marked essential questions, note template, scoring sheet.
-- [ ] Go/no-go threshold documented with explicit stop / pivot / proceed meanings.
-- [ ] `pnpm lint`, `pnpm typecheck`, and `pnpm test` pass locally with output shown.
-- [ ] CI workflow present and green on the pushed branch.
-- [ ] No secrets in the repo; no business logic in the repo.
-- [ ] `DECISIONS.md` records the tooling choices and why.
-- [ ] Founder has seen the gate report and explicitly approved proceeding to Stage 1.
+- [x] All six research files exist, each with primary sources and retrieval dates. (Caveat recorded: facts retrieved via search snippets, not direct page fetches — see `../research/README.md`.)
+- [x] Interview kit is complete: sourcing guide, three outreach messages, verbatim script with ★-marked essential questions, note template, scoring sheet.
+- [x] Go/no-go threshold documented with explicit stop / pivot / proceed meanings (awaiting founder agreement).
+- [x] `pnpm lint`, `pnpm typecheck`, and `pnpm test` pass locally with output shown.
+- [x] CI workflow present and green on the pushed branch.
+- [x] No secrets in the repo; no business logic in the repo.
+- [x] `DECISIONS.md` records the tooling choices and why.
+- [ ] Founder has seen the gate report (`stage-0-gate-report.md`) and explicitly approved proceeding to Stage 1. **← the gate**

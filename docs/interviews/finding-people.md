@@ -16,7 +16,7 @@ A note on honesty: the sources below are real, but pages move and groups rename.
 1. Go to `https://www.ndiscommission.gov.au` and search the site for **"provider register"**.
 2. Same drill: filter to your state, collect small-to-mid names.
 
-For **plan managers** specifically: in the Provider Finder, the relevant registration group is **plan management** (support category "Improved Life Choices" / support item group "CB Choice and Control"). Searching Google for `"plan management" NDIS site:.com.au` also surfaces them quickly because they market directly to participants.
+For **plan managers** specifically: filter or search for the registration group **"Plan Management"** (registration group 0127 — see `../research/record-keeping.md`). Searching Google for `"plan management" NDIS site:.com.au` also surfaces them quickly because they market directly to participants.
 
 ## 2. Industry associations (best for warm-ish contacts)
 

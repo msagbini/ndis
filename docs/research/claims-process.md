@@ -10,7 +10,7 @@ Providers deliver a support, then ask the NDIA for payment ("make a claim"). For
 
 - **PACE** is the NDIA's business computer system, introduced **30 October 2023** alongside the new **my NDIS provider portal** [OFFICIAL — NSW government source expands PACE as "Provider and Participant Communication Environment"; the NDIA's own expansion of the acronym is UNVERIFIED].
 - Rollout was staged from late 2023, with existing plans transitioning as they expired from about February 2024 [OFFICIAL — peak body NDS]. Vendors report the transition completed around mid-2025, meaning effectively the whole scheme now runs on PACE [WEAK — no official completion announcement retrieved].
-- Claiming today is bulk-first: for plans in the new system, *"single claims will not be accepted via the myplace provider portal"* — providers *"submit all claims via the bulk upload process"* [OFFICIAL snippet]. The **bulk payment request is a CSV file uploaded through the myplace provider portal** [OFFICIAL]. A current guide, "my NDIS provider portal June 2026", exists [OFFICIAL].
+- Claiming today is bulk-first: for plans in the new system, *"single claims will not be accepted via the myplace provider portal"* — providers *"submit all claims via the bulk upload process"* [OFFICIAL snippet]. The **bulk payment request is a CSV file** (a plain-text spreadsheet format — one claim per row) **uploaded through the myplace provider portal** [OFFICIAL]. A current guide, "my NDIS provider portal June 2026", exists [OFFICIAL].
 
 ## The bulk claim format (directly relevant to our product)
 

@@ -28,7 +28,7 @@ This repository currently contains **no product code**, on purpose. Stage 0 vali
 | 1 | Deterministic rules engine + test harness | 100% of golden-set cases pass |
 | 2 | Ingestion + document extraction | Extraction accuracy meets the agreed bar |
 | 3 | Evidence gaps + audit pack generator | A real provider's evidence pack passes founder review |
-| 4 | Multi-tenant app, auth, RBAC, billing | Security checklist passes |
+| 4 | Multi-tenant app, login, roles and permissions, billing | Security checklist passes |
 | 5 | Plan-manager bulk console + rejection prediction | Pilot customer uses it unaided for two weeks |
 
 ## Running the checks
