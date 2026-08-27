@@ -17,6 +17,10 @@
 3. **Apertura telefónica** — para los números del Provider Finder. Llama a media mañana o media tarde; evita las 9:00 y el final del día. Ten el guion de entrevista abierto por si dicen "ahora está bien". Si atiende una recepción, pide nombre y email de la persona correcta y envíale el email mencionando la llamada.
 4. **Variante para consultores** — pide 30 minutos en vez de 20 y ofrece compartir lo aprendido de la investigación (lo único que tienes para ofrecer ahora).
 
+## Emails listos para enviar (27/8/2026)
+
+**`outreach-emails-ready.md`** (en esta misma carpeta) tiene los **28 emails completos** — destinatario verificado, asunto y cuerpo personalizado por organización — listos para copiar y pegar en Gmail. Solo reemplaza **[TU NOMBRE]**, **[TU CIUDAD]** y **[TU TELÉFONO]** antes de enviar. Las 3 organizaciones sin email público van por el formulario de su sitio (detalles en ese archivo). Si prefieres que te los deje como borradores directamente en tu Gmail, pídemelo desde una computadora: la herramienta de Gmail pide un permiso que desde el celular no se pudo aprobar.
+
 ## Después de cada respuesta
 
 Agenda las llamadas directamente en tu calendario y anota la fecha en `interview_date` del CSV. Antes de la primera llamada real: pídeme el ensayo (ver `README.es.md`).

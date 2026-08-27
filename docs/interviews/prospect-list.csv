@@ -1,32 +1,32 @@
 org_name,segment,state,size_guess,contact_name,contact_role,channel,contact_detail,source,date_contacted,response,interview_date,notes
-Dedicated Plan Management,plan_manager,QLD,family-run per snippet,,,website,,https://dedicatedplanmanagement.com.au/ndis-plan-manager-brisbane-qld/,,,,Serves NSW/VIC too
-Sky Plan Management,plan_manager,VIC,,,,website,,https://www.skyplanmanagement.com.au/ndis-plan-management-victoria/melbourne/,,,,
-My Care Plan Manager (MCPM),plan_manager,Multi,,,,website,,https://mcpm.net.au/ndis-plan-manager-melbourne/,,,,Melbourne/Sydney/Perth pages
-Trinity Plan Management & Supports,plan_manager,Multi,,,,website,,https://trinityplanmanagement.com.au/ndis-plan-manager-melbourne/,,,,Melbourne & Perth; may also provide supports
-Excellence Plan Management,plan_manager,VIC,,,,website,,https://www.excellenceplanmanagement.com/,,,,
-WSC Australia,plan_manager,VIC,,,,website,,https://wscaustralia.com.au/ndis-plan-management/,,,,
-First2Care,plan_manager,QLD,,,,website,,https://www.first2care.com.au/brisbane,,,,Brisbane/Gold Coast/Sunshine Coast
-AIIM Choices,plan_manager,QLD,,,,website,,https://aiimchoices.com.au/location/brisbane/,,,,
-Empowrd,plan_manager,QLD,,,,website,,https://www.empowrd.com.au/ndis-plan-management-brisbane,,,,
-Simplified Plan Management,plan_manager,WA,,,,website,,https://simplifiedpm.com.au/,,,,Australia-wide per title
-My Mobile Plan Manager,plan_manager,WA,,,,website,,https://mymobileplanmanager.com.au/ndis-plan-management-in-western-australia/perth/,,,,
-Plan Hero,plan_manager,Multi,small local team implied,,,website,,https://planhero.com.au/ndis-plan-management/perth/,,,,Perth/Adelaide/Sydney pages
-Health Assure,plan_manager,SA,,,,website,,https://www.healthassure.com.au/adelaide-south-australia,,,,Adelaide + regional SA
-Enable Plan Management,plan_manager,SA,,,,website,,https://enablepm.org.au/,,,,
-Optimum Plan Management,plan_manager,SA,,,,website,,https://www.optimumpm.com.au/ndis-plan-management-adelaide/,,,,
-My Life My Way,plan_manager,SA,,,,website,,https://mylifemyway.net.au/ndis-plan-management-adelaide/,,,,May also do support coordination
-Pure Plan Management,plan_manager,NSW,family-run per snippet,,,website,,https://www.pureplan.com.au/,,,,Central Coast/Newcastle/Sydney
-Sunrise2Sunrise,provider,VIC,,,,website,,https://sunrise2sunrise.com.au/support-coordination-melbourne/,,,,
-Western Support Services,provider,VIC,,,,website,,https://www.westernsupportservices.com.au/ndis-support-coordination-melbourne/,,,,
-Marli & Moe,provider,Multi,,,,website,,https://www.marliandmoe.com.au/support-coordination-melbourne,,,,VIC & SA pages
-Caring Hearts,provider,VIC,,,,website,,https://www.caringhearts.com.au/ndis-support-coordination-melbourne,,,,
-Your Supportive Care,provider,QLD,,,,website,,https://yoursupportivecare.com.au/,,,,
-Inspiring Care,provider,QLD,,,,website,,https://www.inspiringcare.com.au/,,,,
-Kuremara,provider,QLD,,,,website,,https://kuremara.com.au/,,,,
-Newlight Ability Services,provider,WA,,,,website,,https://newlightabilityservices.com.au/,,,,
-Auscare Disability Services,provider,WA,,,,website,,https://auscaredisabilitysupport.com.au/,,,,
-Enable Hub,provider,NSW,,,,website,,https://enablehub.com.au/,,,,
-Australian Disability Care Services (ADCS),provider,NSW,,,,website,,https://adcs.au/,,,,
-Adelaide Specialist Support Coordinators (ASSC),provider,SA,,,,website,,https://www.adelaidessc.com/our-team,,,,Has an Our Team page
-Help at Hand Support,provider,SA,,,,website,,https://helpathandsupport.com.au/support-coordination-adelaide/,,,,
-Kompletecare,provider,Multi,,,,website,,https://kompletecare.com.au/support-coordinator/,,,,SA & WA; phone consultation offered per snippet
+Dedicated Plan Management,plan_manager,QLD,family-run per snippet,,,email,hello@mydpm.com.au,https://dedicatedplanmanagement.com.au/contact/,,,,Ph 1300 010 170; serves NSW/VIC too
+Sky Plan Management,plan_manager,VIC,,,,email,info@skyplanmanagement.com.au,https://www.skyplanmanagement.com.au/contact-us/,,,,Ph 1300 103 787; Geelong West
+My Care Plan Manager (MCPM),plan_manager,WA,,,,email,info@mcpm.net.au,https://mcpm.net.au/contact-us/,,,,Ph 1300 51 42 29; HQ Osborne Park WA (multi-state pages)
+Trinity Plan Management & Supports,plan_manager,VIC,,,,email,hello@trinityplanmanagement.com.au,https://trinityplanmanagement.com.au/contact-us/,,,,Ph (03) 9016 0097; Point Cook + Perth office
+Excellence Plan Management,plan_manager,VIC,,,,contact_form,,https://www.excellenceplanmanagement.com/contact-us/,,,,No email visible; Ph +61 470 250 203; Narre Warren
+WSC Australia,plan_manager,VIC,,,,email,info@wscaustralia.com.au,https://wscaustralia.com.au/contact-us/,,,,Ph 1300 972 888; pm@wscaustralia.com.au for PM enquiries; Dandenong
+First2Care,plan_manager,QLD,,,,email,info@first2care.com.au,https://www.first2care.com.au/contact-us,,,,Ph 1300 322 273; Brisbane
+AIIM Choices,plan_manager,VIC,,,,email,reception@aiim.com.au,https://aiimchoices.com.au/contact/,,,,Ph 1800 878 978; note different email domain (aiim.com.au) — verify on their contact page; Wodonga HQ
+Empowrd,plan_manager,SA,,,,email,hello@empowrd.com.au,https://www.empowrd.com.au/contact-us,,,,Ph 08 8683 4401; Port Lincoln SA (corrected from QLD)
+Simplified Plan Management,plan_manager,WA,,,,email,info@simplifiedpm.com.au,https://simplifiedpm.com.au/contact/,,,,Ph 0491 090 747; Guildford WA
+My Mobile Plan Manager,plan_manager,NSW,,,,email,admin@mymobileplanmanager.com.au,https://mymobileplanmanager.com.au/contact-us/,,,,Ph (02) 8552 7092; Sydney per contact page (corrected from WA)
+Plan Hero,plan_manager,NSW,small local team implied,,,email,hello@planhero.com.au,https://planhero.com.au/contact-us/,,,,Ph 1300 599 770; Edgecliff NSW; multi-state pages
+Health Assure,plan_manager,SA,,,,email,hello@healthassure.com.au,https://www.healthassure.com.au/,,,,Ph 1300 545 095; national
+Enable Plan Management,plan_manager,SA,,,,email,plan.management@enablepm.org.au,https://enablepm.org.au/contact/,,,,Not-for-profit; multi-state
+Optimum Plan Management,plan_manager,VIC,,,,email,ndis@optimumpm.com.au,https://www.optimumpm.com.au/contact/,,,,Ph 1300 607 404; Clayton VIC HQ (corrected from SA); serves Adelaide
+My Life My Way,plan_manager,SA,,,,email,info@mylifemyway.net.au,https://mylifemyway.net.au/faq/,,,,Ph 0481 882 840; Holden Hill SA; also support coordination
+Pure Plan Management,plan_manager,NSW,family-run per snippet,,,email,hello@pureplan.com.au,https://www.pureplan.com.au/contact,,,,Ph 0434 810 914; Kincumber NSW
+Sunrise2Sunrise,provider,VIC,,,,email,info@sunrise2sunrise.com.au,https://sunrise2sunrise.com.au/contact-us/,,,,Ph 03 9188 3499; Pakenham; SIL + community
+Western Support Services,provider,VIC,,,,email,info@westernsupportservices.com.au,https://www.westernsupportservices.com.au/contact-us/,,,,Ph 0434 610 012; Melbourne west
+Marli & Moe,provider,Multi,,,,phone,1300 797 454,https://www.marliandmoe.com.au/contact,,,,Email redacted in results — get from site; VIC & SA
+Caring Hearts,provider,VIC,,,,email,info@caringhearts.com.au,https://www.caringhearts.com.au/contact,,,,Ph 1800 844 995; Williams Landing
+Your Supportive Care,provider,QLD,,,,email,info@yoursupportivecare.com.au,https://yoursupportivecare.com.au/contact-us/,,,,Ph 07 3190 5206
+Inspiring Care,provider,QLD,,,,email,info@inspiringcare.com.au,https://www.inspiringcare.com.au/contact-us/,,,,Ph 07 3999 6482; Kenmore
+Kuremara,provider,QLD,,,,email,care@kuremara.com.au,https://kuremara.com.au/contact-us/,,,,Ph (07) 3736 0999; Brisbane/Milton
+Newlight Ability Services,provider,WA,,,,email,info@newlightabilityservices.com.au,https://newlightabilityservices.com.au/,,,,Ph 08 6383 8021; Perth
+Auscare Disability Services,provider,WA,,,,contact_form,,https://auscaredisabilitysupport.com.au/contact-us/,,,,No email visible; Ph 08 6364 3917; beware similarly named orgs
+Enable Hub,provider,NSW,,,,email,info@enablehub.com.au,https://www.disabilitysupportguide.com.au/profile/enable-hub,,,,Ph 02 9037 3716; The Rocks Sydney; also plan management
+Australian Disability Care Services (ADCS),provider,NSW,,,,email,info@adcs.au,https://adcs.au/contact-us/,,,,Ph 1300 575 740; intake@adcs.au also seen; Botany NSW
+Adelaide Specialist Support Coordinators (ASSC),provider,SA,,,,email,admin@adelaidessc.com,https://www.adelaidessc.com/,,,,Ph 0434 528 623
+Help at Hand Support,provider,Multi,,,,email,admin@helpathandsupport.com.au,https://helpathandsupport.com.au/contact_us/,,,,Ph 1300 822 190; VIC/NSW/QLD/SA offices
+Kompletecare,provider,SA,,,,email,sales@kompletecare.com.au,https://kompletecare.com.au/,,,,Ph (08) 8265 5696; Adelaide & Perth
