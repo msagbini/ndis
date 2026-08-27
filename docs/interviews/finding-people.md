@@ -46,6 +46,10 @@ Once in: **do not post a survey.** Instead, search the group for the words `reje
 
 A small industry of NDIS consultants exists whose whole business is helping providers pass audits — for example, search for **"Disability Services Consulting"** (also known as DSC / Team DSC), which runs widely-read newsletters and training. Consultants talk to dozens of providers; one friendly consultant conversation is worth five provider interviews for market texture. The email template has a consultant variant.
 
+## Pre-loaded list (2026-08-27)
+
+`prospect-list.csv` already holds **31 real organisations** (17 plan managers, 14 providers across VIC/NSW/QLD/WA/SA) found via web search — every row cites the URL where it appeared. No emails, phone numbers, or person names were invented (those columns are blank on purpose: fill them from each org's own website). National giants and software vendors were excluded. **Verify each row on the org's website before contacting anyone** — team sizes were rarely visible in search results.
+
 ## Filling the CSV
 
 Open `prospect-list-template.csv` in any spreadsheet app (or ask the agent to manage it). One row per organisation. The `segment` column is `provider`, `plan_manager`, or `consultant`. Don't overthink `size_guess` — website team-page headcount or "looks small/medium" is fine.
