@@ -19,7 +19,7 @@
 
 ## Emails listos para enviar (27/8/2026)
 
-**`outreach-emails-ready.md`** (en esta misma carpeta) tiene los **28 emails completos** — destinatario verificado, asunto y cuerpo personalizado por organización — listos para copiar y pegar en Gmail. Solo reemplaza **[TU NOMBRE]**, **[TU CIUDAD]** y **[TU TELÉFONO]** antes de enviar. Las 3 organizaciones sin email público van por el formulario de su sitio (detalles en ese archivo). Si prefieres que te los deje como borradores directamente en tu Gmail, pídemelo desde una computadora: la herramienta de Gmail pide un permiso que desde el celular no se pudo aprobar.
+**`outreach-emails-ready.md`** (en esta misma carpeta) tiene los **28 emails completos y ya firmados** (Moises, Melbourne, 0420 576 710) — destinatario verificado, asunto y cuerpo por organización. Copia, pega en Gmail y envía tal cual; nada que editar. Las 3 organizaciones sin email público van por el formulario de su sitio (detalles en ese archivo). Si prefieres que te los deje como borradores directamente en tu Gmail, pídemelo desde una computadora: la herramienta de Gmail pide un permiso que desde el celular no se pudo aprobar.
 
 ## Después de cada respuesta
 

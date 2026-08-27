@@ -1,16 +1,22 @@
-# Los 28 emails de contacto — listos para copiar y pegar
+# Los 28 emails de contacto — completos, listos para enviar
 
-**Cómo usar este archivo (desde el celular o la computadora):**
+**Ya está todo completo — nombre, ciudad y teléfono incluidos.** Para cada organización:
 
 1. Abre Gmail → Redactar.
-2. Copia el destinatario (**Para**), el **Asunto** y el cuerpo del bloque de la organización.
-3. Reemplaza los tres placeholders antes de enviar: **[TU NOMBRE]**, **[TU CIUDAD]**, **[TU TELÉFONO]** (el teléfono es opcional — si no quieres darlo, borra esa línea).
-4. Envía, y marca la fecha en la columna `date_contacted` de `prospect-list.csv` (o dime "envié a X" y yo lo anoto).
-5. Sin respuesta a los 4–5 días hábiles: un solo recordatorio (texto en `outreach-messages.md`, sección follow-up), y luego basta.
+2. Copia el destinatario (**Para**), el **Asunto** y el cuerpo del bloque. Envía tal cual.
+3. Marca la fecha en `date_contacted` de `prospect-list.csv` — o simplemente dime "envié a X, Y, Z" y yo lo anoto.
 
-Los destinatarios fueron verificados por búsqueda web el 27/8/2026 (fuentes en `prospect-list.csv`). Si un email rebota, avísame y busco alternativa. Ritmo sugerido: 5–10 por día, no los 28 de golpe — así las respuestas no te llegan todas juntas.
+Ritmo sugerido: **5–10 por día**, no los 28 de golpe — así las respuestas llegan escalonadas. Los destinatarios fueron verificados por búsqueda web el 27/8/2026 (fuentes en `prospect-list.csv`); si alguno rebota, avísame y busco alternativa.
 
-**Las 3 organizaciones sin email público** (contacto por formulario del sitio o teléfono; el texto del formulario puede ser el mismo cuerpo del email):
+**Recordatorio de seguimiento** (enviar UNA sola vez, 4–5 días hábiles después, respondiendo en el mismo hilo, si no contestaron):
+
+```text
+Hi — just floating this back up. 20 minutes, nothing being sold, genuinely just research. If it's a no, that's completely fine, and a one-word "no" reply saves us both the guessing.
+
+Moises Sagbini
+```
+
+**Las 3 organizaciones sin email público** (contacto por el formulario de su sitio — puedes pegar el mismo cuerpo del email — o por teléfono):
 
 | Organización | Cómo contactar |
 |---|---|
@@ -30,7 +36,7 @@ Los destinatarios fueron verificados por búsqueda web el 27/8/2026 (fuentes en 
 ```text
 Hi Dedicated Plan Management team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Dedicated Plan Management — or whether I've got it wrong.
 
@@ -39,8 +45,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 2. Sky Plan Management
@@ -51,7 +57,7 @@ Thanks,
 ```text
 Hi Sky Plan Management team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Sky Plan Management — or whether I've got it wrong.
 
@@ -60,8 +66,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 3. My Care Plan Manager
@@ -72,7 +78,7 @@ Thanks,
 ```text
 Hi My Care Plan Manager team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like My Care Plan Manager — or whether I've got it wrong.
 
@@ -81,8 +87,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 4. Trinity Plan Management & Supports
@@ -93,7 +99,7 @@ Thanks,
 ```text
 Hi Trinity Plan Management & Supports team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Trinity Plan Management & Supports — or whether I've got it wrong.
 
@@ -102,8 +108,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 5. WSC Australia
@@ -114,7 +120,7 @@ Thanks,
 ```text
 Hi WSC Australia team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like WSC Australia — or whether I've got it wrong.
 
@@ -123,8 +129,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 6. First2Care
@@ -135,7 +141,7 @@ Thanks,
 ```text
 Hi First2Care team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like First2Care — or whether I've got it wrong.
 
@@ -144,8 +150,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 7. AIIM Choices
@@ -156,7 +162,7 @@ Thanks,
 ```text
 Hi AIIM Choices team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like AIIM Choices — or whether I've got it wrong.
 
@@ -165,8 +171,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 8. Empowrd
@@ -177,7 +183,7 @@ Thanks,
 ```text
 Hi Empowrd team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Empowrd — or whether I've got it wrong.
 
@@ -186,8 +192,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 9. Simplified Plan Management
@@ -198,7 +204,7 @@ Thanks,
 ```text
 Hi Simplified Plan Management team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Simplified Plan Management — or whether I've got it wrong.
 
@@ -207,8 +213,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 10. My Mobile Plan Manager
@@ -219,7 +225,7 @@ Thanks,
 ```text
 Hi My Mobile Plan Manager team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like My Mobile Plan Manager — or whether I've got it wrong.
 
@@ -228,8 +234,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 11. Plan Hero
@@ -240,7 +246,7 @@ Thanks,
 ```text
 Hi Plan Hero team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Plan Hero — or whether I've got it wrong.
 
@@ -249,8 +255,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 12. Health Assure
@@ -261,7 +267,7 @@ Thanks,
 ```text
 Hi Health Assure team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Health Assure — or whether I've got it wrong.
 
@@ -270,8 +276,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 13. Enable Plan Management
@@ -282,7 +288,7 @@ Thanks,
 ```text
 Hi Enable Plan Management team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Enable Plan Management — or whether I've got it wrong.
 
@@ -291,8 +297,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 14. Optimum Plan Management
@@ -303,7 +309,7 @@ Thanks,
 ```text
 Hi Optimum Plan Management team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Optimum Plan Management — or whether I've got it wrong.
 
@@ -312,8 +318,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 15. My Life My Way
@@ -324,7 +330,7 @@ Thanks,
 ```text
 Hi My Life My Way team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like My Life My Way — or whether I've got it wrong.
 
@@ -333,8 +339,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 16. Pure Plan Management
@@ -345,7 +351,7 @@ Thanks,
 ```text
 Hi Pure Plan Management team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS plan managers and providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Pure Plan Management — or whether I've got it wrong.
 
@@ -354,8 +360,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ---
@@ -370,7 +376,7 @@ Thanks,
 ```text
 Hi Sunrise2Sunrise team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Sunrise2Sunrise — or whether I've got it wrong.
 
@@ -379,8 +385,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 18. Western Support Services
@@ -391,7 +397,7 @@ Thanks,
 ```text
 Hi Western Support Services team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Western Support Services — or whether I've got it wrong.
 
@@ -400,8 +406,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 19. Caring Hearts
@@ -412,7 +418,7 @@ Thanks,
 ```text
 Hi Caring Hearts team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Caring Hearts — or whether I've got it wrong.
 
@@ -421,8 +427,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 20. Your Supportive Care
@@ -433,7 +439,7 @@ Thanks,
 ```text
 Hi Your Supportive Care team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Your Supportive Care — or whether I've got it wrong.
 
@@ -442,8 +448,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 21. Inspiring Care
@@ -454,7 +460,7 @@ Thanks,
 ```text
 Hi Inspiring Care team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Inspiring Care — or whether I've got it wrong.
 
@@ -463,8 +469,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 22. Kuremara
@@ -475,7 +481,7 @@ Thanks,
 ```text
 Hi Kuremara team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Kuremara — or whether I've got it wrong.
 
@@ -484,8 +490,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 23. Newlight Ability Services
@@ -496,7 +502,7 @@ Thanks,
 ```text
 Hi Newlight Ability Services team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Newlight Ability Services — or whether I've got it wrong.
 
@@ -505,8 +511,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 24. Enable Hub
@@ -517,7 +523,7 @@ Thanks,
 ```text
 Hi Enable Hub team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Enable Hub — or whether I've got it wrong.
 
@@ -526,8 +532,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 25. Australian Disability Care Services
@@ -538,7 +544,7 @@ Thanks,
 ```text
 Hi Australian Disability Care Services team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Australian Disability Care Services — or whether I've got it wrong.
 
@@ -547,8 +553,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 26. Adelaide Specialist Support Coordinators
@@ -559,7 +565,7 @@ Thanks,
 ```text
 Hi Adelaide Specialist Support Coordinators team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Adelaide Specialist Support Coordinators — or whether I've got it wrong.
 
@@ -568,8 +574,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 27. Help at Hand Support
@@ -580,7 +586,7 @@ Thanks,
 ```text
 Hi Help at Hand Support team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Help at Hand Support — or whether I've got it wrong.
 
@@ -589,8 +595,8 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
 
 ## 28. Kompletecare
@@ -601,7 +607,7 @@ Thanks,
 ```text
 Hi Kompletecare team,
 
-I'm [TU NOMBRE], based in [TU CIUDAD]. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
+I'm Moises, based in Melbourne. I'm researching a problem I keep hearing about from NDIS providers: claims getting rejected or cancelled after the work's already been done, and the scramble to get evidence together when an audit comes around.
 
 Before building anything, I'm trying to find out whether that matches reality for businesses like Kompletecare — or whether I've got it wrong.
 
@@ -610,6 +616,6 @@ Could I get 20 minutes on the phone in the next week or two? I'm not selling any
 Happy to work around your schedule. And if this lands with the wrong person, I'd be grateful for a point in the right direction.
 
 Thanks,
-[TU NOMBRE]
-[TU TELÉFONO]
+Moises Sagbini
+0420 576 710
 ```
