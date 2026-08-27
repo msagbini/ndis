@@ -1,0 +1,22 @@
+{
+	"name": "@claimguard/cli",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Command-line demo of the claim validation engine: give it an NDIA-format bulk CSV, a plan and a catalogue, get per-line verdicts with plain-English reasons. The honest seed of the product — no database, no network, just the engine.",
+	"type": "module",
+	"main": "src/main.ts",
+	"scripts": {
+		"typecheck": "tsc --noEmit",
+		"test": "vitest run",
+		"demo": "tsx src/main.ts validate ../../seed/FIXTURE_demo/FIXTURE_claims.csv --plan ../../seed/FIXTURE_golden-set/FIXTURE_plan.json --catalogue ../../seed/FIXTURE_golden-set/FIXTURE_catalogue.json --config ../../seed/FIXTURE_golden-set/FIXTURE_config.json --date 2026-08-27 || echo \"(La demo termina con codigo 1 a proposito: el archivo de ejemplo contiene reclamos que fallan.)\""
+	},
+	"dependencies": {
+		"@claimguard/rules": "workspace:*"
+	},
+	"devDependencies": {
+		"@types/node": "^26.4.0",
+		"tsx": "^4.19.2",
+		"typescript": "^7.0.2",
+		"vitest": "^4.1.11"
+	}
+}

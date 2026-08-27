@@ -1,0 +1,21 @@
+{
+	"name": "@claimguard/ingestion",
+	"version": "0.0.0",
+	"private": true,
+	"description": "File ingestion: converts the NDIS Support Catalogue spreadsheet into the versioned data the rules engine consumes. This package may touch files; @claimguard/rules stays pure.",
+	"type": "module",
+	"main": "src/index.ts",
+	"scripts": {
+		"typecheck": "tsc --noEmit",
+		"test": "vitest run"
+	},
+	"dependencies": {
+		"@claimguard/rules": "workspace:*",
+		"exceljs": "^4.4.0"
+	},
+	"devDependencies": {
+		"@types/node": "^26.4.0",
+		"typescript": "^7.0.2",
+		"vitest": "^4.1.11"
+	}
+}

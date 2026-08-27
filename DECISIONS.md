@@ -4,6 +4,14 @@ Every consequential decision, newest first. Format: date, decision, why, and how
 
 ---
 
+## 2026-08-27 — Libraries: exceljs for spreadsheet parsing, tsx for the CLI demo
+
+**Decision:** `@claimguard/ingestion` uses **exceljs** to read the Support Catalogue XLSX; `@claimguard/cli` uses **tsx** (dev-only) to run TypeScript directly for the `demo` script. Both live outside `packages/rules`, which remains dependency-free and pure.
+
+**Why:** exceljs is actively maintained on npm (SheetJS community builds stopped publishing there); tsx avoids a build step for a demo tool. Reversible library choices per §13 of the brief.
+
+**Reversibility:** Easy — both are isolated behind small interfaces.
+
 ## 2026-08-27 — Founder decision: start Stage 1 before the interview verdict
 
 **Decision:** Begin building the Stage 1 rules engine now, without waiting for the Stage 0 interview verdict. Decided explicitly by the founder ("Arranca con el programa es de una"), after the agent twice explained the recommendation to wait and why. Interviews continue in parallel and still decide the business verdict per `docs/go-no-go.md`; a NO-GO stops the build.
