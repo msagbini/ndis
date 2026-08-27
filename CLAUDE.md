@@ -6,8 +6,8 @@ Pre-seed Australian B2B SaaS (working name **Claimguard** — internal only, nev
 
 ## Current state (update this section as stages complete)
 
-- **Stage 0 (validation) — built, gate NOT yet passed.** Research dossier, interview kit, go/no-go threshold, repo skeleton all exist. Waiting on: founder-run customer interviews and their verdict per `docs/go-no-go.md`.
-- **No product code exists. Do not write any** until the founder explicitly confirms the Stage 0 gate passed (GO verdict). Stage plans live in `docs/plans/`.
+- **Stage 0 (validation) — built; interviews running in parallel, verdict pending** per `docs/go-no-go.md` (threshold AGREED 2026-08-27). Outreach emails are sent by the founder from `docs/interviews/outreach-emails-ready.md`.
+- **Stage 1 (rules engine) — ACTIVE by explicit founder decision of 2026-08-27** (see `DECISIONS.md`: founder chose to start before the interview verdict; a NO-GO stops the build). All engine data is `FIXTURE_`-labelled until the founder supplies the official 2026-27 Pricing Schedule + Support Catalogue files (`docs/research/sources/README.md`). Plan: `docs/plans/stage-1.md`.
 
 ## Non-negotiable rules (from the founding brief)
 

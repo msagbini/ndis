@@ -1,6 +1,6 @@
 # Stage 1 Plan — Deterministic Rules Engine + Test Harness
 
-**Status: DRAFT — do not execute.** Stage 1 starts only after the Stage 0 gate passes (interview verdict = GO, founder approval). This draft exists so thinking is done before the gate, not after. It will be revised against interview findings and against the real primary documents before work begins.
+**Status: ACTIVE — started 2026-08-27 by explicit founder decision** (recorded in `DECISIONS.md`: the founder chose to start before the interview verdict; interviews continue in parallel and still decide the business verdict). Build order adjusted: everything runs against `FIXTURE_` data first; the real 2026-27 catalogue plugs in when the founder supplies the official file. Interview findings will re-prioritise rules and golden-set weighting as they arrive.
 
 ## Goal
 

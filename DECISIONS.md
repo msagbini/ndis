@@ -4,6 +4,16 @@ Every consequential decision, newest first. Format: date, decision, why, and how
 
 ---
 
+## 2026-08-27 — Founder decision: start Stage 1 before the interview verdict
+
+**Decision:** Begin building the Stage 1 rules engine now, without waiting for the Stage 0 interview verdict. Decided explicitly by the founder ("Arranca con el programa es de una"), after the agent twice explained the recommendation to wait and why. Interviews continue in parallel and still decide the business verdict per `docs/go-no-go.md`; a NO-GO stops the build.
+
+**Why:** The founder judged that having the program under way matters more than sequencing purity. The agent's recorded recommendation was to wait for the interview verdict (risk: building the wrong shape before knowing which failure modes and which buyer segment matter most).
+
+**Constraints that do NOT change:** no fabricated domain data — the engine is built and tested against clearly labelled `FIXTURE_` data only; real 2026-27 prices load only when the founder supplies the official Support Catalogue file. Deterministic-only money/eligibility logic. `packages/rules` stays pure.
+
+**Reversibility:** The code is real either way; the risk is wasted shaping, not wasted architecture. Interview findings will re-prioritise rules before Stage 2.
+
 ## 2026-08-27 — Founder communication in Spanish
 
 **Decision:** All chat communication and explanations addressed to the founder are in Spanish (their primary language). Customer-facing material (outreach messages, interview script) stays in Australian English, because the interviewees are Australian providers. Repo docs remain in English for now; Spanish versions of the founder-instruction docs can be produced on request.
