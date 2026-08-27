@@ -2,7 +2,7 @@
 
 *(Versión en español de `go-no-go.md`. Si algo difiere, el original en inglés manda.)*
 
-**Estado:** PROPUESTO — se vuelve vinculante cuando lo apruebes por escrito (un mensaje diciendo "umbral aprobado" alcanza). La aprobación ocurre **antes** de la primera entrevista, para que el listón no se pueda mover después de ver los resultados.
+**Estado:** **APROBADO — vinculante.** Aprobado por el fundador por escrito ("Umbral aprobado") el 27/8/2026, antes de cualquier entrevista. El listón de abajo ya no puede moverse después de ver resultados.
 
 ## Por qué existe este documento
 

@@ -1,6 +1,6 @@
 # Go / No-Go Threshold for Stage 0 Customer Validation
 
-**Status:** PROPOSED — becomes binding when the founder agrees to it in writing (a reply saying "agreed" is enough). Agreeing happens **before** the first interview, so the bar can't be moved after we've seen the results.
+**Status:** **AGREED — binding.** Approved by the founder in writing ("Umbral aprobado") on 2026-08-27, before any interview ran. The bar below can no longer be moved after seeing results.
 
 ## Why this document exists
 
