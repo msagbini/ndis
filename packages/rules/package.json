@@ -1,0 +1,16 @@
+{
+	"name": "@claimguard/rules",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Deterministic claim-validation rules engine. Pure logic: no network, no database, no AI. Stage 0 contains only a harness smoke test — the engine itself is Stage 1.",
+	"type": "module",
+	"main": "src/index.ts",
+	"scripts": {
+		"typecheck": "tsc --noEmit",
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"typescript": "^7.0.2",
+		"vitest": "^4.1.11"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"name": "claimguard",
+	"version": "0.0.0",
+	"private": true,
+	"description": "NDIS claim integrity and audit evidence platform (working name: Claimguard). Stage 0 — validation only, no product code.",
+	"engines": {
+		"node": ">=22"
+	},
+	"scripts": {
+		"lint": "biome check .",
+		"format": "biome format --write .",
+		"typecheck": "pnpm -r typecheck",
+		"test": "pnpm -r test"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.10"
+	}
+}
