@@ -2,14 +2,14 @@
 
 *(Resumen en español: este documento propone las 4 "skills" — procedimientos reutilizables del agente — que sugiere el encargo original, con qué haría cada una y cuándo construirla. Son solo propuestas para tu aprobación; no se construye ninguna todavía. Mi recomendación: aprobar la construcción de cada una recién al inicio de la etapa que la usa.)*
 
-**Status: PROPOSED — nothing is built yet.** The founding brief suggests four skills. Building a skill before its stage would front-load work that interview findings may reshape. Recommendation per skill below.
+**Status: one built (`ndis-price-validator`, with Stage 1 active); the other three remain proposals.** The founding brief suggests four skills. Building a skill before its stage would front-load work that interview findings may reshape. Status/recommendation per skill below.
 
 ## 1. `ndis-price-validator`
 
 - **What:** parse the official Support Catalogue XLSX into a queryable, versioned table; validate a claim line (item code, date, price, location class) against it.
 - **When to build:** at Stage 1 start — it *is* the heart of Stage 1, and building it as a skill makes the procedure repeatable for every annual/mid-year price update.
 - **Depends on:** the real 2026-27 files from the founder.
-- **Recommendation:** approve now, build at Stage 1 kickoff.
+- **Status: BUILT** (2026-08-27) — see `skills/ndis-price-validator/SKILL.md`; runner: `pnpm --filter @claimguard/ingestion import`.
 
 ## 2. `ndis-evidence-mapper`
 
